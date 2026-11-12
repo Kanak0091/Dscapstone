@@ -1,0 +1,20 @@
+{
+    "student_name": "Kanak Chaudhary",
+    "roll_no": "2601060001",
+    "domain": "FinTech Loan Default & Credit Risk Analytics Pipeline",
+    "timestamp": "20261112_150145",
+    "sources": [
+        {
+            "type": "REST API + Synthetic Expansion",
+            "records": 100
+        },
+        {
+            "type": "SQLite Database",
+            "db_file": "data/raw/loans.db",
+            "table": "repayment_history"
+        }
+    ],
+    "output_file": "data/raw/borrowers_raw_20261112_150145.csv",
+    "total_rows": 100,
+    "total_columns": 11
+}
