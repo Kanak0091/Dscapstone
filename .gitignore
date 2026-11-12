@@ -7,3 +7,4 @@ data/processed/*.csv
 models/*.pkl
 reports/*.html
 .DS_Store
+reports/*.html
